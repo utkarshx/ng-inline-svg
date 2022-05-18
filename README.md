@@ -29,7 +29,7 @@ Add `HttpClientModule` and `InlineSVGModule` to your list of module imports:
 
 ```typescript
 import { HttpClientModule } from '@angular/common/http';
-import { InlineSVGModule } from 'ng-inline-svg';
+import { InlineSVGModule } from 'ng-inline-svg-2';
 
 @NgModule({
   declarations: [AppComponent],
@@ -94,7 +94,7 @@ Here is one way to achieve this dynamically by adding an app initalizing service
 *app-server.module.ts*:
 ```typescript
 import { NgModule, APP_INITIALIZER } from '@angular/core';
-import { InlineSVGConfig } from 'ng-inline-svg';
+import { InlineSVGConfig } from 'ng-inline-svg-2';
 import { SVGConfig } from './svg-config';
 
 @NgModule({
@@ -108,7 +108,7 @@ export class AppServerModule {}
 *svg-config.ts*:
 ```typescript
 import { Injectable, Inject } from '@angular/core';
-import { InlineSVGConfig } from 'ng-inline-svg';
+import { InlineSVGConfig } from 'ng-inline-svg-2';
 
 @Injectable()
 export class SVGConfig extends InlineSVGConfig {
