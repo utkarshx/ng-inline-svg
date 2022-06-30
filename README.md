@@ -2,7 +2,7 @@
 
 ---
 
-[![NPM](https://nodei.co/npm/ng-inline-svg.png?compact=true)](https://nodei.co/npm/ng-inline-svg)
+[![NPM](https://nodei.co/npm/ng-inline-svg-2.png?compact=true)](https://nodei.co/npm/ng-inline-svg-2)
 
 **[Demo](https://echeung.me/ng-inline-svg)**
 
